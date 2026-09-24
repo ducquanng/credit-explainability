@@ -1,0 +1,35 @@
+{
+  "auc_mlp": 0.781058201058201,
+  "auc_logit": 0.7920105820105822,
+  "mean_local_r2": 0.33839566624784295,
+  "min_local_r2": 0.18469575796196447,
+  "stability": {
+    "mean_jaccard": 0.7666666666666667,
+    "min_jaccard": 0.6666666666666666,
+    "k": 5
+  },
+  "randomisation": {
+    "top_k_overlap": 0.25,
+    "weight_correlation": 0.24621033093819442,
+    "k": 5
+  },
+  "fidelity_ceiling": {
+    "binary_representation_r2": 0.39163919825886484,
+    "actual_values_r2": 0.5491854597617942,
+    "representation_gap": 0.15754626150292939,
+    "neighbourhood_sd": 0.41141165149770054
+  },
+  "checks": {
+    "fidelity": "FAIL",
+    "stability": "PASS",
+    "randomisation": "PASS"
+  },
+  "focus_applicant": 214,
+  "focus_top_features": [
+    "other_installment_plans",
+    "purpose",
+    "job",
+    "checking_status",
+    "savings_status"
+  ]
+}
